@@ -124,12 +124,12 @@ tr {
 .sideTable h4 {
   text-align: center;
 }
-.sideTable .itImageRow {
+.sideTable .imageRow {
   height: 140px;
   padding: 10px;
   text-align: center;
 }
-.sideTable .itImageRow img {
+.sideTable .imageRow img {
   height: auto;
   width: 60%;
 }
