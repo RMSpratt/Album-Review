@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Nunito Regular"), local("Nunito-Regular"), url(https://fonts.gstatic.com/s/nunito/v12/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #e6efed;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+footer {
+  background-color: #55917c;
+  clear: both;
+  height: 40px;
+  padding: 20px 5px;
+}
+
+header {
+  background-color: #55917c;
+  box-shadow: 0 5px 5px #396052;
+  height: 40px;
+  padding: 20px 5px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  border-bottom: 1px solid #1c3029;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+img {
+  border: 1px solid #1c3029;
+  height: 150px;
+  width: 150px;
+}
+
+li {
+  margin-left: 20px;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1920px;
+  width: 95%;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+section {
+  background-color: #8fbdad;
+  border: 2px solid #1c3029;
+  border-radius: 5px;
+  float: left;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+  width: 65%;
+}
+section div {
+  background-color: #cfe3dc;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding: 5px;
+}
+section div p:last-of-type {
+  margin-bottom: 0rem;
+}
+
+td {
+  border: 1px solid #1c302d;
+  border-collapse: collapse;
+  color: #203732;
+  padding: 0 5px;
+}
+
+th {
+  border: 1px solid #1c302d;
+  border-collapse: collapse;
+  background-color: #559186;
+  color: #1c302d;
+  font-size: 1.25rem;
+  padding: 0 5px;
+  text-align: center;
+}
+
+tr {
+  height: 30px;
+  width: 95%;
+}
+
+.lyrics {
+  margin-left: 5%;
+}
+
+.sideTable {
+  background-color: #cfe3df;
+  border: 2px solid #1c302d;
+  border-radius: 5px;
+  float: right;
+  margin-bottom: 50px;
+  min-height: 350px;
+  width: 27%;
+}
+.sideTable h4 {
+  text-align: center;
+}
+.sideTable .itImageRow {
+  height: 140px;
+  padding: 10px;
+  text-align: center;
+}
+.sideTable .itImageRow img {
+  height: auto;
+  width: 60%;
+}
+
+.referencesList {
+  background-color: #cfe3dc;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow-wrap: break-word;
+  padding: 5px;
+}
+
+.text, h1, h2, h3, h4, li, p {
+  color: #1c3029;
+}
+
+@media only screen and (min-width: 1680px), (min-device-width: 1680px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1200px), (max-device-width: 1200px) {
+  .bioSectionLong, .bioSectionShort {
+    width: 60%;
+  }
+}
+@media only screen and (min-height: 1200px), (min-device-height: 1200px) {
+  header, section {
+    margin-bottom: 75px;
+  }
+}
+@media only screen and (max-width: 768px), (max-device-width: 768px) {
+  .bioSectionLong, .bioSectionShort {
+    clear: both;
+    height: initial;
+    padding-bottom: 20px;
+    margin: 50px auto;
+    width: 90%;
+  }
+
+  .bioText {
+    height: initial;
+  }
+}
+@media only screen and (max-width: 414px), (max-device-width: 414px) {
+  h1 {
+    font-size: 1.4rem;
+    margin-left: 5%;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  section {
+    padding: 10px 10px;
+  }
+}
+@media only screen and (max-width: 360px), (max-device-width: 360px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  img {
+    height: 125px;
+    width: 125px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
